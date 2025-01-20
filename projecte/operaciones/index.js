@@ -5,13 +5,12 @@
  * @returns {Number} el resultat de la operacio
  */
 function suma(...valors) {
-
-}
 let total = 0;
     for (let valor of valors) {
         total += valor;
     }
     return total;
+}
 
 /**
  * Aquesta funcio multiplica tots els valors passats per parametre
