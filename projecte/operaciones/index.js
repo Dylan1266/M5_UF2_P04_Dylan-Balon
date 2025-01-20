@@ -7,7 +7,11 @@
 function suma(...valors) {
 
 }
-
+let total = 0;
+    for (let valor of valors) {
+        total += valor;
+    }
+    return total;
 
 /**
  * Aquesta funcio multiplica tots els valors passats per parametre
@@ -18,6 +22,7 @@ function suma(...valors) {
 function multiplica(...valors) {
 
 }
+ 
 
 module.exports.suma = suma;
 module.exports.multiplica = multiplica;
