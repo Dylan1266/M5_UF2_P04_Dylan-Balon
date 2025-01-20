@@ -20,6 +20,11 @@ let total = 0;
  * @returns {Number} el resultat de la operacio
  */
 function multiplica(...valors) {
+    let total = 1;
+    for (let valor of valors) {
+        total *= valor;
+    }
+    return total;
 
 }
  
